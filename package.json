@@ -1,0 +1,27 @@
+{
+  "name": "zivotniurovenvcr",
+  "version": "1.0.0",
+  "description": "Zjišťování životní úrovně v ČR",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OndraVicha/ZivotniUroven.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "PUG",
+    "CSV"
+  ],
+  "author": "Ondřej Vícha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OndraVicha/ZivotniUroven/issues"
+  },
+  "homepage": "https://github.com/OndraVicha/ZivotniUroven#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
