@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="cs">
+  <head>
+    <title>Životní úrovně krajů v ČR</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body class=" bg-secondary">
+    <header class="bg-dark text-center p-5">
+        <h1 class="display-2 text-light">Životní úrovně krajů v ČR</h1>
+        <p class="h3 text-warning">Ukázková aplikace v NodeJS</p>
+    </header>  
+    <main class="container">
+        <h2 class=" text-warning text-center p-3 ">Formulář pro zjištění životní úrovně krajů v ČR</h2>
+        <div class="container">
+          <form action="/savedata" method="post">
+            <div class="form-group row">
+              <label for="kraj" class="col-sm-2 col-form-label">V jakém kraji bydlím</label>
+              <div class="col-sm-10">
+                <select class="form-control" name="predmet" id="predmet">
+                  <option value="Anglický jazyk">Anglický jazyk</option>
+                  <option value="Český jazyk">Český jazyk</option>
+                  <option value="Elektrotechnika">Elektrotechnika</option>
+                  <option value="Fyzika">Fyzika</option>
+                  <option value="Hardware">Hardware</option>
+                  <option value="Matematika">Matematika</option>
+                  <option value="Počítačová grafika">Počítačová grafika</option>
+                  <option value="Počítačové sítě">Počítačové sítě</option>
+                  <option value="Programování">Programování</option>
+                  <option value="Programové vybavení">Programové vybavení</option>
+                </select>
+              </div>
+          </div>
+            <div class="form-group row">
+                <label for="bydleni" class="col-sm-2 col-form-label">V čem bydlím</label>
+                <div class="col-sm-10">
+                  <select class="form-control" name="predmet" id="predmet">
+                    <option value="Anglický jazyk">Panelový byt</option>
+                    <option value="Český jazyk">Rodinný dům</option>
+                    <option value="Elektrotechnika">Obytný vůz</option>
+                  </select>
+                </div>
+            </div>
+            <div class="form-group row">
+              <label for="nemovitosti" class="col-sm-2 col-form-label">Předmět</label>
+              <div class="col-sm-10">
+                <select class="form-control" name="predmet" id="predmet">
+                  <option value="Anglický jazyk">Anglický jazyk</option>
+                  <option value="Český jazyk">Český jazyk</option>
+                  <option value="Elektrotechnika">Elektrotechnika</option>
+                  <option value="Fyzika">Fyzika</option>
+                  <option value="Hardware">Hardware</option>
+                  <option value="Matematika">Matematika</option>
+                  <option value="Počítačová grafika">Počítačová grafika</option>
+                  <option value="Počítačové sítě">Počítačové sítě</option>
+                  <option value="Programování">Programování</option>
+                  <option value="Programové vybavení">Programové vybavení</option>
+                </select>
+              </div>
+          </div>
+            <div class="form-group row">
+                <div class="offset-sm-2 col-sm-10">
+                    <button type="submit" class="btn btn-primary">Odeslat údaje</button>
+                </div>
+            </div>
+        </form>
+        </div>
+    </main>
+    <footer class=" text-center p-3">
+       
+        <p>&copy; 2022 - Ondřej Vícha, IT2, SŠPU Opava</p>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
