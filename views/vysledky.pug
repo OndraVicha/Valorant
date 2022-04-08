@@ -20,12 +20,12 @@ html
                 tbody
                     each vysledek in vysledky
                         tr
-                            td #{bestmap}       
-                            td #{worstmap}
-                            td #{duelists}
-                            td #{controlers}
-                            td #{initiators}
-                            td #{sentinels}
+                            td #{vysledek.bestmap}       
+                            td #{vysledek.worstmap}
+                            td #{vysledek.duelists}
+                            td #{vysledek.controlers}
+                            td #{vysledek.initiators}
+                            td #{vysledek.sentinels}
         footer.bg-dark.p-2
             .container.text-white
                 p.float-right
