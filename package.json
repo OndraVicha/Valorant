@@ -1,14 +1,14 @@
 {
-  "name": "zivotniurovenvcr",
+  "name": "valorant",
   "version": "1.0.0",
-  "description": "Zjišťování životní úrovně v ČR",
+  "description": "Valoarant",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/OndraVicha/ZivotniUroven.git"
+    "url": "git+https://github.com/OndraVicha/Valorant.git"
   },
   "keywords": [
     "NodeJS",
@@ -18,10 +18,16 @@
   "author": "Ondřej Vícha",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/OndraVicha/ZivotniUroven/issues"
+    "url": "https://github.com/OndraVicha/Valorant/issues"
   },
-  "homepage": "https://github.com/OndraVicha/ZivotniUroven#readme",
+  "homepage": "https://github.com/OndraVicha/Valorant#readme",
   "dependencies": {
-    "express": "^4.17.3"
+    "body-parser": "^1.20.0",
+    "csvtojson": "^2.0.10",
+    "express": "^4.17.3",
+    "js": "^0.1.0",
+    "json": "^11.0.0",
+    "mjs": "^1.0.0",
+    "moment": "^2.29.2"
   }
 }
