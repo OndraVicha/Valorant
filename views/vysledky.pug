@@ -1,0 +1,34 @@
+doctype html
+html 
+    head
+        title Valorant
+        style 
+            include css/styles.css 
+    body
+        header.jumbotron-fluid.bg-success.p-3
+            h1.text-center.text-white#{nadpis}
+        main.container
+            table 
+                thead
+                    tr 
+                        th The Best Map
+                        th The Worst Map 
+                        th The Best Duelist
+                        th The Best Controler
+                        th The Best Initiator
+                        th The Best Sentinel
+                tbody
+                    each vysledek in vysledky
+                        tr
+                            td #{bestmap}       
+                            td #{worstmap}
+                            td #{duelists}
+                            td #{controlers}
+                            td #{initiators}
+                            td #{sentinels}
+        footer.bg-dark.p-2
+            .container.text-white
+                p.float-right
+                    a(href="/") Zpět na formulář
+                p &copy; 2022 -IT2 -NodeJS
+        
